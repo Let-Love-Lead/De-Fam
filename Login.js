@@ -18,18 +18,18 @@ export default function Login({ navigation }) {
                 }}
                 /*source={require("../assets/icon.png)}, for import local images*/
             />
-            <Text style={{ color: "black", fontSize: 24, fontweight: 600 }}> Welcome to YakaKlodin</Text>
-            <Text style={{ color: "black", fontSize: 30, fontWeight:"bold" }}> Where you dress to Suit the occassion</Text>
+            <Text style={{ color: "black", fontSize: 24}}> Welcome to YakaKlodin</Text>
+            <Text style={{ color: "black", fontSize: 20, fontWeight:"bold" }}> Where you dress to Suit the occassion</Text>
             <TouchableOpacity style={{ flexDirection:"row", backgroundColor: "gray", padding: 10, paddingHorizontal: 50, marginTop: 20, }}>
                 <AntDesign name="google" size={24} color="red"/>
-                <Text style={{ fontSize: 17, marginLeft:10, fontWeight: 600 }}>Login with Gmail</Text>
+                <Text style={{ fontSize: 17, marginLeft:10}}>Login with Gmail</Text>
             </TouchableOpacity>
             <TouchableOpacity style={{ flexDirection: "row", backgroundColor: "black", padding: 10, paddingHorizontal: 50, marginTop: 20, }}>
                 <AntDesign name="apple1" size={24} color= "white" />
-                <Text style={{ marginLeft: 10, fontSize: 20, fontweight: 600, color: "white", }}>Login with Apple</Text>
+                <Text style={{ marginLeft: 10, fontSize: 20, color: "white", }}>Login with Apple</Text>
             </TouchableOpacity>
             <TouchableOpacity>
-            <Text style={{ marginTop: 10, fontweight: '500', color: 'gray' }}> Not a member?{" "}
+            <Text style={{ marginTop: 10,color: 'gray' }}> Not a member?{" "}
                 <Text style={{ color: "orange", fontWeight: "bold", }}>SignUp</Text>
             </Text>
             </TouchableOpacity>
